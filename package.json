@@ -1,0 +1,19 @@
+{
+  "name": "zepto",
+  "version": "1.0.0",
+  "description": "Zepto Scraper is a Node.js + Puppeteer script that automates product searches on ZeptoNow. It selects a location, searches for a product, extracts details (name, price, quantity), and checks availability, and show it if available.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "express": "^4.21.2",
+    "puppeteer": "^24.1.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
